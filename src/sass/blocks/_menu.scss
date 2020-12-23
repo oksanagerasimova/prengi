@@ -1,0 +1,48 @@
+.menu {
+    min-height: 700px;
+    padding: 39px 0 0 0;
+    background: url('../../img/bg1.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;justify-content: space-between;
+    }
+    &__list {
+        width: 540px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        &-link {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 700;
+            &:hover {
+                color:$main-color;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    &__sections {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__titles {
+        height: 273px;
+        margin: 133px 0 195px 0;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__btn {
+        margin-top: 39px;
+    }
+    &__mobile {
+        margin-top: 32px;
+    }
+}
