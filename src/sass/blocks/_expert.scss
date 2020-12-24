@@ -1,0 +1,57 @@
+.expert {
+    padding: 79px 0 61px 0;
+    min-height: 889px;
+    background: url('../../img/bg2.png') center (center / cover) no-repeat;
+    &__wrapper {
+        margin: 25px auto 0 auto;
+        width: 843px;
+        height: 65px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        border: 1px solid #ffffff;
+        padding: 25px 33px;
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        &:hover {
+            color:$main-color;
+        }
+    }
+    a {
+        text-decoration: none;
+
+    }
+    &__carousel {
+        position: relative;
+        width: 947px;
+        margin: 35px auto 0 auto;
+        &-img {
+            width: 947px;
+        }
+        button {
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+    }
+    .slick-prev {
+        position: absolute;
+        top: 210px;
+        left: 0;
+        z-index: 1;
+    }
+    .slick-next {
+        position: absolute;
+        top: 210px;
+        right: 0;
+    }
+    .slick-slide {
+        outline: none;
+    }
+}
