@@ -1,0 +1,32 @@
+.data {
+    min-height: 580px;
+    padding: 79px 0 220px 0;
+    background: url('../../img/data_bg.jpg') center (center / cover) no-repeat;
+    &__title {
+        font-weight: 900;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 115px;
+    }
+    &__text {
+        &_left {
+            text-align: right;
+        }
+        &_right {
+            text-align: left;
+        }
+        &-title {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        &-subtitle {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}
